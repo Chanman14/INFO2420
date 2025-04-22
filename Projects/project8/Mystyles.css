@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	font-family: Arial, sans-serif;
+    background-color: #FFF8DC; /* Light cream background */
+    color: #333;
+    line-height: 1.6;
+}
+
+@font-face{
+	font-family:'PlaypenSans-VariableFont_wght.tff';
+	src: url('fonts/PlaypenSans-VariableFont_wght.eot'); 
+	src: local('PlaypenSans-VariableFont_wght'), url('fonts/PlaypenSans-VariableFont_wght.ttf') format('truetype') ;
+}
+
+a {
+    color: #228B22; 
+    text-decoration: none;
+	font-family:'PlaypenSans-VariableFont_wght.tff';
+  }
+
+header {
+	width:900px;
+	height: 200px;
+	background-color: navajowhite;
+	text-align: center;
+	padding-top: 10px;
+	margin: auto;	
+}
+
+section {
+	width: 900px;
+	background-image: url('Images/2colback.png');
+	background-repeat: repeat-y;
+	overflow: hidden;
+	margin: auto;
+}
+
+nav {
+	float: left;
+	width: 250px;
+}
+
+article {
+	float: left;
+	width: 650px;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	width: 900px;
+	height: 70px;
+	background-color: burlywood;
+	margin: auto;
+}
+
+.logoleft {
+	float: left;
+	padding-top: 0px;
+	padding-left: 15px;	
+}
+
+nav a {
+	border: 4px inset #FFFFFF;
+	background-color: antiquewhite;
+	line-height: 250%;
+	font-weight: bold;
+	font-size: 35px;
+	color: burlywood;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 20px;
+	font-family: 'PlaypenSans-VariableFont_wght.tff';
+}
+
+nav a:hover {
+	color: navajowhite;
+	border: 2px outset #CCCCCC;
+}
+h1 {
+	color: saddlebrown;
+	text-align: center;
+	font-size: x-large;
+	font-family: 'PlaypenSans-VariableFont_wght.tff';
+}
+
+h2{
+	color: saddlebrown;
+	text-align: center;
+	font-size: x-large;
+	font-family: 'PlaypenSans-VariableFont_wght.tff';
+}
+
+h3 {
+	color: saddlebrown;
+	text-align: center;
+	font-size: x-large;
+	font-family: 'PlaypenSans-VariableFont_wght.tff';
+}
+
+	#thumbs, #image {
+		width: 600px;
+		text-align: center;
+		margin: 0 auto 0 auto;
+		color: #000;
+	}
+
+	#thumbs {
+		margin-top: 10px;
+	}
+
+			
+	#thumbs img {
+		border: solid 1px #000;
+		margin: 5px;
+	}
+
+	#image{
+		height:500px;
+	}
+
+	.instructions{
+		font-style:italic;
+	}
+p {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: 'PlaypenSans-VariableFont_wght.tff';
+	color: antiquewhite;
+	}
+
+
+  #wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  a {
+    color: #228B22; 
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:visited {
+    color: #556B2F;
+  }
+
+  .content > * {
+    margin-bottom: 1.5em;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+	 padding-right: 10px;
+	 padding-left: 23px;
+  }
+
+  .float-right {
+    float: right;
+    margin: 0 0 20px 20px;
+  }
+
+  .float-left {
+    float: left;
+    margin: 0 20px 20px 0;
+  }
+
+  
+  .a{
+  text-align: center;
+  }
+  
+  
+  hr.thick {
+  height: 1px;
+  background-color: black;
+  border: none;
+  width: 95%;
+	padding-left: .05px;
+  }
